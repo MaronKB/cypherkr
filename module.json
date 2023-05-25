@@ -1,0 +1,44 @@
+{
+  "id": "cypher-system-kr",
+  "title": "Translation: Korean [Cypher System]",
+  "description": "<p>'0'</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "authors": [
+    {
+      "name": "MRKB",
+      "discord": "MRKB#9999",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+  ],
+  "styles": [
+    "./style.css"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "type": "system",
+        "id": "cyphersystem",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "socket": true,
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "한국어 (Korean)",
+      "path": "ko.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/MaronKB/cypherkr/",
+  "manifest": "https://raw.githubusercontent.com/MaronKB/cypherkr/main/module.json",
+  "download": "https://github.com/MaronKB/cypherkr/archive/main.zip"
+}
